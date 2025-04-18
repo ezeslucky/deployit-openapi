@@ -378,5 +378,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-James Berry - Follow me on Twitter [@jlalmes](https://twitter.com/ezeslucky) 💚
+Aurobindo Patra - Follow me on Twitter [@ezeslucky](https://twitter.com/ezeslucky) 💚
 # deployit-openapi
