@@ -1,7 +1,7 @@
 ![trpc-openapi](assets/trpc-openapi-readme.png)
 
 <div align="center">
-  <h1>trpc-openapi</h1>
+  <h1>deployit-openapi</h1>
   <a href="https://www.npmjs.com/package/trpc-openapi"><img src="https://img.shields.io/npm/v/trpc-openapi.svg?style=flat&color=brightgreen" target="_blank" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black" /></a>
   <a href="https://trpc.io/discord" target="_blank"><img src="https://img.shields.io/badge/chat-discord-blue.svg" /></a>
@@ -37,16 +37,16 @@ We make some changes to make input, output and meta parameters be optional by de
 
 ```bash
 # npm
-npm install @dokploy/trpc-openapi
+npm install deployit-openapi
 # yarn
-yarn add @dokploy/trpc-openapi
+yarn add deployit-openapi
 ```
 
 **2. Add `OpenApiMeta` to your tRPC instance.**
 
 ```typescript
 import { initTRPC } from '@trpc/server';
-import { OpenApiMeta } from '@dokploy/trpc-openapi';
+import { OpenApiMeta } from 'deployit-openapi';
 
 const t = initTRPC.meta<OpenApiMeta>().create(); /* 👈 */
 ```
@@ -378,5 +378,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-James Berry - Follow me on Twitter [@jlalmes](https://twitter.com/jlalmes) 💚
-# trpc-openapi
+James Berry - Follow me on Twitter [@jlalmes](https://twitter.com/ezeslucky) 💚
+# deployit-openapi
