@@ -202,7 +202,7 @@ Explore a [complete example here](examples/with-nextjs/src/server/router.ts).
 
 ```typescript
 import { TRPCError, initTRPC } from '@trpc/server';
-import { OpenApiMeta } from '@dokploy/trpc-openapi';
+import { OpenApiMeta } from 'deployit-openapi';
 
 type User = { id: string; name: string };
 
