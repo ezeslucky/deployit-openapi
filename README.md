@@ -6,7 +6,7 @@
 <!--     <img src="https://img.shields.io/npm/v/trpc-openapi.svg?style=flat&color=brightgreen" target="_blank" /> -->
 <!--   </a> -->
 <!--   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-black" /></a> -->
-<!--   <a href="https://trpc.io/discord" target="_blank"><img src="https://img.shields.io/badge/chat-discord-blue.svg" /></a> --> -->
+<!--   <a href="https://trpc.io/discord" target="_blank"><img src="https://img.shields.io/badge/chat-discord-blue.svg" /></a> --> 
   <br />
   <hr />
 </div>
