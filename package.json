@@ -1,6 +1,6 @@
 {
   "name": "deployit-api",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "tRPC OpenAPI",
   "author": "Aurobindo Patra <aurobindolife888@gmail.com>",
   "private": false,
