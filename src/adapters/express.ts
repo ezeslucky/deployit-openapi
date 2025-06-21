@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-
 import { OpenApiRouter } from '../types';
 import {
   CreateOpenApiNodeHttpHandlerOptions,
@@ -7,7 +6,7 @@ import {
 } from './node-http/core';
 
 export type CreateOpenApiExpressMiddlewareOptions<TRouter extends OpenApiRouter> =
-  CreateOpenApiNodeHttpHandlerOptions<TRouter, Request, Response>;
+  CreateOpenApiNodeHttpHandlerOptions<TRouter, any, Response>;
 
 export const createOpenApiExpressMiddleware = <TRouter extends OpenApiRouter>(
   opts: CreateOpenApiExpressMiddlewareOptions<TRouter>,
@@ -15,6 +14,7 @@ export const createOpenApiExpressMiddleware = <TRouter extends OpenApiRouter>(
   const openApiHttpHandler = createOpenApiNodeHttpHandler(opts);
 
   return async (req: Request, res: Response) => {
-    await openApiHttpHandler(req, res);
+    // Type casting to avoid qs.ParsedQs conflict
+    await openApiHttpHandler(req as any, res);
   };
 };
