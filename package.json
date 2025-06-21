@@ -1,6 +1,6 @@
 {
   "name": "deployit-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "tRPC OpenAPI",
   "author": "Aurobindo Patra <aurobindolife888@gmail.com>",
   "private": false,
@@ -44,7 +44,7 @@
     "lodash.clonedeep": "^4.5.0",
     "node-mocks-http": "^1.12.2",
     "openapi-types": "^12.1.1",
-    "deployit-openapi": "^1.2.0",
+    
     "zod-to-json-schema": "^3.21.1"
   },
   "devDependencies": {

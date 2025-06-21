@@ -16,7 +16,7 @@
 
 # Note
 
-We use this package to generate OpenAPI documents for our tRPC endpoints in https://github.com/Dokploy/dokploy
+We use this package to generate OpenAPI documents for our tRPC endpoints in https://github.com/ezeslucky/deployit
 
 We make some changes to make input, output and meta parameters be optional by default.
 
@@ -33,7 +33,7 @@ We make some changes to make input, output and meta parameters be optional by de
 - Perfect for incremental adoption.
 - OpenAPI version 3.0.3.
 
-**1. Install `@dokploy/trpc-openapi`.**
+**1. Install `deployit-openapi`.**
 
 ```bash
 # npm
